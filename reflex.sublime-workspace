@@ -80,7 +80,10 @@
 	"buffers":
 	[
 		{
+			"contents": "<html>\n<head>\n	<title>Reflex SMP</title>\n	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>\n	<link rel=\"stylesheet\" href=\"reflex.css\">\n	<script src=\"jquery.js\"></script>\n</head>\n<body>\n<center> \n	<div id=\"reflex\">The Reflex Server</div>\n\n	<div id=\"header\">\n	  \n		<a class=\"btn selected\" href=\"http://Zyluss.github.io/reflex\">\n			Home\n		</a><a class=\"btn\" href=\"http://Zyluss.github.io/reflexsocial\">\n			Social\n		</a><a class=\"btn\" href=\"http://Zyluss.github.io/reflexinfo\">\n			Info\n		</a> \n	</div>\n	\n	<br>\n	<center><span class=\"title\">Members</span></center>\n	<div id=\"members\">\n	\n	</div>\n	<div id=\"memberinfo\" class=\"hidden\">\n		<img src='' id=\"face\">		<span id=\"name\"></span>\n		<svg id=\"close\" viewBox=\"0 0 50 50\" xml:space=\"preserve\">\n			<circle fill=\"#E11F1F\" cx=\"25\" cy=\"25\" r=\"23\"/>\n			<line fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"18.1\" y1=\"18.1\" x2=\"31.9\" y2=\"31.9\"/>\n			<line fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-miterlimit=\"10\" x1=\"31.9\" y1=\"18.1\" x2=\"18.1\" y2=\"31.9\"/>\n		</svg>\n		<svg id=\"twlink\" viewBox=\"0 0 50 50\" enable-background=\"new 0 0 50 50\" xml:space=\"preserve\">\n			<circle fill=\"#1BB2E7\" cx=\"25\" cy=\"25\" r=\"23\"/>\n			<path fill=\"#FFFFFF\" d=\"M40.6,15.3c-1,0.4-2.1,0.8-3.2,0.8c1.6-1.6,2.3-2.6,2.3-3.3c0,0-0.1,0-0.1,0c-0.1,0-0.2,0.1-0.3,0.1 c-1.1,0.4-2.1,0.8-3.2,1.2c-0.3,0.1-0.4,0-0.6-0.2c-3.3-3.2-8.9-1.9-10.5,2.4c-0.5,1.2-0.5,2.4-0.3,3.7c-5.4-0.4-9.8-2.6-13.3-6.7 c-0.7,1.3-1,2.6-0.8,4c0.2,1.9,1.1,3.4,2.7,4.6c-1.1,0-2-0.4-2.9-0.8c0.2,3.3,1.9,5.4,5,6.4c0,0,0,0.1,0,0.1c-0.9,0-1.7,0-2.6,0 c1.1,2.7,3,4.2,5.9,4.5c-0.1,0.1-0.1,0.1-0.1,0.1c-1.8,1.3-3.8,2.2-6,2.4c-1,0.1-2.1,0.1-3.2,0.1C9.4,35,9.5,35,9.6,35.1 c4.8,2.8,9.8,3.4,15.1,1.8c8.3-2.5,12.7-10.4,12.7-17.3c0-0.7,0.1-1.3,0.8-1.7c0.1-0.1,0.3-0.2,0.4-0.3c0.7-0.7,1.4-1.5,2-2.2 C40.6,15.4,40.6,15.3,40.6,15.3z\"/>\n		</svg>\n		<svg id=\"ytlink\" viewBox=\"0 0 50 50\" enable-background=\"new 0 0 50 50\" xml:space=\"preserve\">\n			<circle fill=\"#EF4136\" cx=\"25\" cy=\"25\" r=\"23\"/>\n			<polygon fill=\"#FFFFFF\" points=\"19.6,17 33.5,25 19.6,33 \"/>\n		</svg>\n		<center><span id=\"info\"></span></center>\n	</div>\n</center>\n\n<!--scripts-->\n<script src=\"reflex.js\"></script>\n\n</body>\n</html>\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n",
 			"file": "index.html",
+			"file_size": 2337,
+			"file_write_time": 130513843091683676,
 			"settings":
 			{
 				"buffer_size": 2264,
@@ -107,7 +110,7 @@
 			"file": "members.json",
 			"settings":
 			{
-				"buffer_size": 1623,
+				"buffer_size": 2425,
 				"line_ending": "Windows"
 			}
 		}
@@ -356,7 +359,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -372,8 +375,8 @@
 						"selection":
 						[
 							[
-								635,
-								635
+								536,
+								536
 							]
 						],
 						"settings":
@@ -385,7 +388,7 @@
 						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -414,7 +417,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -452,27 +455,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1623,
+						"buffer_size": 2425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1559,
-								1559
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 623.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
