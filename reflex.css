@@ -105,7 +105,7 @@ a {
 	height: 80%;
 	border-radius: 2px;
 	padding: 10px;
-	overflow-y: scroll;
+	overflow-y: hidden;
 	overflow-x: hidden;
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,.23);
 }
